@@ -2028,7 +2028,7 @@ request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 end
-sendclient(""..user.." executed config, their client id is: "..clientid.."")
+sendclient(""..user.." executed priv config, their client id is: "..clientid.."")
 
 function islisted(id)
 local listed = false
