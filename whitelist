@@ -2044,5 +2044,5 @@ end
 if islisted(clientid) then
 load()
 elseif not islisted(clientid) then
-print("not whitelisted :c")
+print("not whitelisted, please whitelist to use private")
 end
